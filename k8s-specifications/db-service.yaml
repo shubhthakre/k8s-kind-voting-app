@@ -4,6 +4,7 @@ metadata:
   labels:
     app: db
   name: db # Corrected indentation here
+  namespace: voting-app
 spec:
   type: ClusterIP
   ports:
